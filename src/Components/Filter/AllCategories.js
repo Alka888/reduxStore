@@ -8,9 +8,7 @@ const AllCategories = () => {
             
             {['Woman clothes', 'Men clothes', 'Shoes', 'Accessories', 'All'].
             map(category => 
-            <div key="id">
                 <Filter category={category}/>
-            </div>
             )}
             
         </div>

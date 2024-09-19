@@ -15,9 +15,9 @@ const Clothes = () => {
             return selectedCategory === clothes.category;
         })
         .map(clothes => 
-            <div key="id">
+            
                 <Cloth clothes={clothes}/>
-            </div>
+            
         )}
         </div>
     )
