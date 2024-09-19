@@ -7,7 +7,10 @@ const AllCategories = () => {
             <h1>What kind of clothes do you like?</h1>
             
             {['Woman clothes', 'Men clothes', 'Shoes', 'Accessories', 'All'].
-            map(category => <Filter category={category}/>
+            map(category => 
+            <div key="id">
+                <Filter category={category}/>
+            </div>
             )}
             
         </div>
